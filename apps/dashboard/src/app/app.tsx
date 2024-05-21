@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Button } from '@nx-monorepo/design-system';
+import { css } from '../styled-system/css';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="dashboard" />
+    <div className={css({ bg: 'red.200' })}>
+      <Button variant="outline">Primary</Button>
     </div>
   );
 }

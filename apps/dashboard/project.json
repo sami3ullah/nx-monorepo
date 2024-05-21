@@ -5,5 +5,12 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project dashboard --web",
-  "targets": {}
+  "targets": {
+    "prepare": {
+      "command": "pnpm panda codegen --cwd=apps/dashboard/src"
+    },
+    "panda-init": {
+      "command": "pnpm panda init --postcss --cwd=apps/dashboard"
+    }
+  }
 }

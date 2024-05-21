@@ -39,3 +39,8 @@ testem.log
 Thumbs.db
 
 .nx/cache
+## Panda
+styled-system
+styled-system-studio
+
+storybook-static
