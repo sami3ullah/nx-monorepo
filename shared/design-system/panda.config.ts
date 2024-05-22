@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev';
-import { propiflyPreset } from './src';
+import { propiflyPreset } from './src/preset';
 import { createPreset } from '@park-ui/panda-preset';
 
 export default defineConfig({

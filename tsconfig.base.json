@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-monorepo/design-system": ["shared/design-system/src/index.ts"]
+      "@nx-monorepo/design-system": ["shared/design-system/src/index.ts"],
+      "@nx-monorepo/design-system/preset": [
+        "shared/design-system/src/preset.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
