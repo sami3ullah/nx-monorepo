@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev';
-import { propiflyPreset } from './src';
+import { propiflyPreset } from './src/preset';
 import { createPreset } from '@park-ui/panda-preset';
 
 export default defineConfig({
@@ -9,7 +9,6 @@ export default defineConfig({
 
   // Where to look for your css declarations
   include: ['./src/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
-  importMap: '@nx-monorepo/design-system',
   outExtension: 'js',
 
   // Files to exclude
@@ -19,7 +18,9 @@ export default defineConfig({
   theme: {
     extend: {},
   },
-
+  staticCss: {
+    recipes: '*',
+  },
   // The output directory for your css system
   outdir: 'styled-system',
   jsxFramework: 'react',
