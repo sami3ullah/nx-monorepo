@@ -1,6 +1,6 @@
 import { Accordion } from '@ark-ui/react/accordion';
-import { accordion } from '../../../styled-system/recipes';
-import { styled } from '../../../styled-system/jsx';
+import { accordion } from '../../../../styled-system/recipes';
+import { styled } from '../../../../styled-system/jsx';
 import { createStyleContext } from '../../../create-style-context';
 import type { ComponentProps } from 'react';
 
