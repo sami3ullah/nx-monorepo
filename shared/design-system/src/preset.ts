@@ -10,6 +10,19 @@ export const propiflyPreset = definePreset({
           'nice-yellow': { value: '#facc15' },
           'dark-green': { value: 'green' },
         },
+        animations: {
+          slideIn: {
+            '0%': {
+              transform: {
+                value: 'translateX(-100%)',
+                opacity: { value: '0' },
+              },
+            },
+            '100%': {
+              transform: { value: 'translateX(0)', opacity: { value: '1' } },
+            },
+          },
+        },
       },
       semanticTokens: {
         colors: {

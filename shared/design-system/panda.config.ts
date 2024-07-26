@@ -20,6 +20,13 @@ export default defineConfig({
   },
   staticCss: {
     recipes: '*',
+    css: [
+      {
+        properties: {
+          animation: ['*'],
+        },
+      },
+    ],
   },
   // The output directory for your css system
   outdir: 'styled-system',
