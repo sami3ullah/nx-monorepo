@@ -11,7 +11,7 @@ export function App() {
         w="60px"
         borderRadius="50%"
         bg="nice-yellow"
-        className={css({ animation: 'bounce 1s infinite' })}
+        animation="bounce 1s infinite"
       ></Box>
       <Box className={css({ bg: 'red.300' })}>
         <Button>Primary</Button>
