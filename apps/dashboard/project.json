@@ -10,7 +10,7 @@
       "command": "pnpm panda codegen --cwd=apps/dashboard/src"
     },
     "panda-init": {
-      "command": "pnpm panda init --postcss --cwd=apps/dashboard"
+      "command": "pnpm panda init --postcss --cwd=apps/dashboard/src"
     }
   }
 }
