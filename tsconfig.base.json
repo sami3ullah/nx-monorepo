@@ -18,7 +18,8 @@
       "@nx-monorepo/design-system": ["shared/design-system/src/index.ts"],
       "@nx-monorepo/design-system/preset": [
         "shared/design-system/src/preset.ts"
-      ]
+      ],
+      "@nx-monorepo/design-system/*": ["shared/design-system/styled-system/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
